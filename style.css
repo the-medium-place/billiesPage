@@ -1,3 +1,52 @@
 body {
     background-color: lightgoldenrodyellow;
 }
+
+header {
+    background: lightpink;
+    /* background: blue; */
+    text-align: center;
+    height: 100px;
+    padding: .05em;
+
+}
+
+section {
+    margin: 10px;
+    border: 1px solid darkslategray;
+
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+footer {
+    width: 100%;
+    text-align: right;
+    background: lavenderblush;
+    /* height: 100px; */
+    bottom: 0;
+}
+
+.top-pic {
+    max-height: 400px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.pic-box {
+    display: block;
+    padding: .05em;
+
+}
+
+.with-text {
+    font-weight: bold;
+    line-height: 120%;
+    padding: 2em;
+
+}
+

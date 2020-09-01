@@ -20,7 +20,7 @@ section {
 main {
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 footer {
@@ -35,7 +35,14 @@ footer {
     max-height: 400px;
     margin: 0 auto;
     max-width: 100%;
+    box-shadow: 3px 3px 3px black;
+    filter: grayscale();
 }
+
+.top-pic:hover {
+    filter: none;
+}
+
 
 .pic-box {
     display: block;
